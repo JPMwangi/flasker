@@ -51,10 +51,6 @@ def name():
 		name = name,
 		form = form)
 
-app.route('/nameform')
-def name1():
-	return render_template('user.html')
-
 
 # safe capitalize lower upper title trim striptags
 # create Custom error page.
